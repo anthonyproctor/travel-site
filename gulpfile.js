@@ -24,6 +24,7 @@ gulp.task('styles', function() {
 gulp.task('watch', function() {
 
   browserSync.init({
+    notify: false;
     server: {
       baseDir: "app"
     }
