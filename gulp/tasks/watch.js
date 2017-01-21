@@ -21,8 +21,7 @@ gulp.task('watch', function() {
 
 });
 
-gulp.task('styles', function() {
-  return gulp.src('./app/assets/styles/styles.css')
-    .pipe(postcss([cssImport, cssvars, nested, autoprefixer]))
-    .pipe(gulp.dest('./app/temp/styles'));
+gulp.task('cssInject', ['styles'], function() {
+  return gulp.src('./app/temp/styles/styles.css')
+    .pipe(browserSync.stream());
 });
