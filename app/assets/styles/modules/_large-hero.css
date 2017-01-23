@@ -1,6 +1,12 @@
 .large-hero {
   position: relative;
 
+  &__image {
+    max-width: 100%;
+    display: block;
+    width: 100%;
+  }
+
   &__text-content {
     position: absolute;
     top: 50%;

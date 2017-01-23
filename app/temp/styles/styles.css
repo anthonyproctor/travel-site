@@ -452,6 +452,12 @@ img {
   position: relative;
 }
 
+.large-hero__image {
+  max-width: 100%;
+  display: block;
+  width: 100%;
+}
+
 .large-hero__text-content {
   position: absolute;
   top: 50%;
