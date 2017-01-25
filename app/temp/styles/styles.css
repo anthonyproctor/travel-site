@@ -542,6 +542,10 @@ img {
   padding-right: 0;
 }
 
+.wrapper--b-margin {
+  margin-bottom: 3.875rem;
+}
+
 .page-section {
   padding: 1.2rem 0;
 }
@@ -618,7 +622,7 @@ img {
 }
 
 .row--gutters > div {
-  padding: 65px;
+  padding-right: 65px;
 }
 
 @media (min-width: 800px) {
