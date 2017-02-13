@@ -18,7 +18,7 @@
   &--small {
     font-size: 1.2rem;
     @mixin atSmall {
-      ont-size: 1.875rem;
+      font-size: 1.875rem;
     }
   }
 
@@ -30,6 +30,10 @@
 
   &--light {
     font-weight: 100;
+  }
+
+  strong {
+    font-weight: 400;
   }
 
   &--b-margin-small {

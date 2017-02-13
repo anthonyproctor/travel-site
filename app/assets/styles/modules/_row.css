@@ -30,13 +30,13 @@
     padding-right: 45px;
   }
 
-  &__b-margin-unitl-medium {
+  &__b-margin-until-medium {
     margin-bottom: 1rem;
   }
 
   @mixin atMedium {
 
-    &__b-margin-unitl-medium {
+    &__b-margin-until-medium {
       margin-bottom: 0;
     }
 
@@ -62,11 +62,12 @@
     &__medium-8--smaller {
       width: 63%;
     }
+
   }
 
   @mixin atLarge {
 
-    &__b-margin-unitl-large {
+    &__b-margin-until-large {
       margin-bottom: 0;
     }
 
@@ -92,8 +93,9 @@
     &__large-8--smaller {
       width: 63%;
     }
-  }
 
+  }
+  
   /* Begin Equal Height Rules */
   &--equal-height-at-medium {
     @mixin atMedium {
@@ -104,6 +106,7 @@
       float: none;
       display: flex;
     }
+
   }
 
   &--equal-height-at-large {
@@ -115,6 +118,7 @@
       float: none;
       display: flex;
     }
+
   }
 
 }
