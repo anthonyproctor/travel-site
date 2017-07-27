@@ -1,7 +1,7 @@
 # travel-site
 Travel Site built with HTML, CSS, and JavaScript
 
-https://anthonyproctor.github.io/trave-site
+https://anthonyproctor.github.io/travel-site/
 
 What your project does
   This is a website built for a travel site
